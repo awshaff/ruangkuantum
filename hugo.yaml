@@ -2,121 +2,187 @@ baseURL: "https://ruangkuantum.web.id/"
 languageCode: "id"
 title: "Ruang Kuantum"
 theme: "PaperMod"
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# Pagination settings (updated for Hugo v0.128.0+)
+pagination:
+  pagerSize: 5
+
+# Essential for SEO and performance
+minify:
+  disableXML: true
+  minifyOutput: true
 
 params:
-  description: "Quantum Computing untuk Developer Indonesia"
+  # Brand-aligned metadata
+  env: production # enables analytics, opengraph, twitter-cards
+  title: "Ruang Kuantum"
+  description: "Quantum Computing untuk Developer Indonesia - Belajar quantum computing dengan perspektif software engineering"
+  math: true # Enable KaTeX globally (optional)
+  keywords: [
+    "quantum computing Indonesia", 
+    "belajar quantum computing", 
+    "quantum programming tutorial", 
+    "fisika kuantum programming",
+    "quantum developer Indonesia",
+    "Qiskit tutorial bahasa Indonesia"
+  ]
+  author: "Ruang Kuantum"
+  images: ["https://ruangkuantum.web.id/og-image.png"] # Create this for social sharing
+  
+  # Localization
+  DateFormat: "2 January 2006" # Indonesian date format
+  defaultTheme: auto
+  disableThemeToggle: false
+  
+  # User experience settings
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
+  ShowCodeCopyButtons: true # Important for programming tutorials
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: false # Consider enabling later for community building
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true # Enable for educational content
   tocopen: false
 
+  # Brand assets
   assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
 
+  # Brand identity
   label:
     text: "Ruang Kuantum"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    icon: "/logo.png" # Create quantum-themed logo
+    iconHeight: 32
 
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
-
-  # home-info mode
+  # Homepage content
   homeInfoParams:
     Title: "Selamat datang di Ruang Kuantum ⚛️"
     Content: >
-      Platform pembelajaran quantum computing untuk developer Indonesia.
-      Pelajari konsep dasar hingga implementasi praktis quantum computing
-      dengan bahasa yang mudah dipahami.
+      **Jembatan antara dunia quantum computing dan software engineering untuk generasi Indonesia.**
+      
+      
+      Pelajari quantum computing dengan perspektif praktis - dari konsep fisika dasar hingga implementasi kode, 
+      dikemas dalam bahasa yang mudah dipahami untuk developer Indonesia.
 
+  # Social media presence
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/ruangkuantum"
+    - name: twitter
+      url: "https://twitter.com/ruangkuantum"
+    - name: linkedin
+      url: "https://linkedin.com/company/ruangkuantum"
+    - name: youtube
+      url: "https://youtube.com/@ruangkuantum"
+    - name: discord
+      url: "https://discord.gg/ruangkuantum"
+    - name: telegram
+      url: "https://t.me/ruangkuantum"
 
+  # Analytics (replace with your tracking IDs)
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "your-google-verification-tag"
+    # Consider adding:
+    # gtag: "G-XXXXXXXXXX" # Google Analytics 4
 
+  # Cover images
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # Show covers for visual appeal
+    hiddenInList: false
+    hiddenInSingle: false
+    linkFullImages: true
+    responsiveImages: true
 
+  # Community contribution
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+    URL: "https://github.com/ruangkuantum/website/tree/main/content"
+    Text: "Suggest Edits"
+    appendFilePath: true
 
-  # for search
-  # https://fusejs.io/api/options.html
+  # Search functionality
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
     location: 0
     distance: 1000
     threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
+    minMatchCharLength: 2
+    limit: 20 # More results for educational content
+    keys: ["title", "permalink", "summary", "content", "tags"]
 
+# Navigation menu
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: fundamentals
+      name: "Dasar-Dasar"
+      url: /categories/fundamentals/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: programming
+      name: "Programming"
+      url: /categories/programming/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: career
+      name: "Karir"
+      url: /categories/career/
       weight: 30
+    - identifier: community
+      name: "Komunitas"
+      url: /categories/community/
+      weight: 40
+    - identifier: about
+      name: "Tentang"
+      url: /about/
+      weight: 50
 
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# Taxonomy for content organization
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+  difficulty: difficulty # Custom taxonomy for learning levels
+
+# Code highlighting
 pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    lineNos: true
+    style: "github-dark" # Good for quantum/tech content
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+  goldmark:
+    renderer:
+      unsafe: true # Allow HTML in markdown for advanced formatting
+
+# Sitemap for SEO
+sitemap:
+  changefreq: weekly
+  priority: 0.5
+  filename: sitemap.xml
+
+# Language settings
+defaultContentLanguage: "id"
+defaultContentLanguageInSubdir: false
+
+# Output formats
+outputs:
+  home: ["HTML", "RSS", "JSON"] # JSON needed for search
+  page: ["HTML"]
+  section: ["HTML", "RSS"]

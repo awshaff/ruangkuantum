@@ -4,21 +4,21 @@
     <title>Ruang Kuantum</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Ruang Kuantum</description>
+    <image>
+      <title>Ruang Kuantum</title>
+      <url>https://ruangkuantum.web.id/og-image.png</url>
+      <link>https://ruangkuantum.web.id/og-image.png</link>
+    </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>id</language>
-    <lastBuildDate>Wed, 02 Jul 2025 21:57:20 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
+      <title>Memahami Quantum Gates: Dari Konsep hingga Implementasi</title>
       <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Wed, 02 Jul 2025 21:57:20 +0900</pubDate>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>&lt;h1 id=&#34;ruang-kuantum---dummy-content-untuk-testing-deployment&#34;&gt;Ruang Kuantum - Dummy Content untuk Testing Deployment&lt;/h1&gt;
-&lt;h2 id=&#34;1-hello-world-article-homepagelanding&#34;&gt;1. Hello World Article (Homepage/Landing)&lt;/h2&gt;
-&lt;h3 id=&#34;selamat-datang-di-ruang-kuantum-&#34;&gt;Selamat Datang di Ruang Kuantum! 🚀&lt;/h3&gt;
-&lt;p&gt;Halo developers, students, dan future quantum engineers Indonesia!&lt;/p&gt;
-&lt;p&gt;Kamu pernah nggak sih kepikiran, &amp;ldquo;Wah, quantum computing itu kayak gimana ya implementasinya di dunia programming?&amp;rdquo; atau &amp;ldquo;Kok quantum bisa lebih cepat dari komputer biasa?&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;Nah, &lt;strong&gt;Ruang Kuantum&lt;/strong&gt; hadir buat menjawab rasa penasaran kamu tentang dunia quantum computing dari perspektif yang relate dengan background programming dan STEM.&lt;/p&gt;</description>
+      <description>Panduan lengkap tentang quantum gates - komponen fundamental dalam quantum computing yang mengubah cara kita memproses informasi.</description>
     </item>
   </channel>
 </rss>

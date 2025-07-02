@@ -1,0 +1,6 @@
+{{- /* Load KaTeX if math is enabled for this page or globally */ -}}
+{{ if or .Params.math .Site.Params.math }}
+{{ partial "math.html" . }}
+{{ end }}
+
+{{- /* Add any other custom head content here */ -}}

@@ -4,8 +4,49 @@
     <title>Tags on Ruang Kuantum</title>
     <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Ruang Kuantum</description>
+    <image>
+      <title>Ruang Kuantum</title>
+      <url>https://ruangkuantum.web.id/og-image.png</url>
+      <link>https://ruangkuantum.web.id/og-image.png</link>
+    </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>id</language>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dasar</title>
+      <link>http://localhost:1313/tags/dasar/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/dasar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Qiskit</title>
+      <link>http://localhost:1313/tags/qiskit/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/qiskit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quantum-Computing</title>
+      <link>http://localhost:1313/tags/quantum-computing/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/quantum-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quantum-Gates</title>
+      <link>http://localhost:1313/tags/quantum-gates/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/quantum-gates/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorial</title>
+      <link>http://localhost:1313/tags/tutorial/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tutorial/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

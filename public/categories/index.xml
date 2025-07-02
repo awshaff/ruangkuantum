@@ -4,8 +4,28 @@
     <title>Categories on Ruang Kuantum</title>
     <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Ruang Kuantum</description>
+    <image>
+      <title>Ruang Kuantum</title>
+      <url>https://ruangkuantum.web.id/og-image.png</url>
+      <link>https://ruangkuantum.web.id/og-image.png</link>
+    </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>id</language>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fundamentals</title>
+      <link>http://localhost:1313/categories/fundamentals/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/fundamentals/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>http://localhost:1313/categories/programming/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/programming/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
