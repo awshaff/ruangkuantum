@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Ruang Kuantum</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
+    <description>Recent content on Ruang Kuantum</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>id</language>
+    <lastBuildDate>Wed, 02 Jul 2025 21:57:20 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Wed, 02 Jul 2025 21:57:20 +0900</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;h1 id=&#34;ruang-kuantum---dummy-content-untuk-testing-deployment&#34;&gt;Ruang Kuantum - Dummy Content untuk Testing Deployment&lt;/h1&gt;
+&lt;h2 id=&#34;1-hello-world-article-homepagelanding&#34;&gt;1. Hello World Article (Homepage/Landing)&lt;/h2&gt;
+&lt;h3 id=&#34;selamat-datang-di-ruang-kuantum-&#34;&gt;Selamat Datang di Ruang Kuantum! 🚀&lt;/h3&gt;
+&lt;p&gt;Halo developers, students, dan future quantum engineers Indonesia!&lt;/p&gt;
+&lt;p&gt;Kamu pernah nggak sih kepikiran, &amp;ldquo;Wah, quantum computing itu kayak gimana ya implementasinya di dunia programming?&amp;rdquo; atau &amp;ldquo;Kok quantum bisa lebih cepat dari komputer biasa?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Nah, &lt;strong&gt;Ruang Kuantum&lt;/strong&gt; hadir buat menjawab rasa penasaran kamu tentang dunia quantum computing dari perspektif yang relate dengan background programming dan STEM.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
